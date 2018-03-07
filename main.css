@@ -1,0 +1,317 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+a
+{
+text-decoration: none;
+}
+a:hover
+{
+ text-decoration: none;
+}
+#header 
+{
+    background-color:rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 10;
+    margin-bottom: 0%;
+}
+#logo h2
+{
+ padding: 10px;
+ color: white;
+}
+#main-nav ul li 
+{
+ display: inline-block;
+ padding:10px 10px; 
+}
+#main-nav ul li a
+{
+  color: white;
+  font-size: 20px;
+}
+#main-nav ul li a:hover
+{
+    border-bottom: 2px solid gold;
+}
+#nav_btn
+{
+    display: none;
+}
+@media(max-width:992px)
+{
+    #main-nav ul li a
+{
+  color: white;
+  font-size: 15px;
+}
+#main-nav ul li 
+{
+ display: inline-block;
+ padding:10px 5px; 
+}
+#logo h2
+{
+ padding: 10px 5px;
+ color: white;
+ font-size: 25px;
+}
+
+}
+@media(max-width:768px)
+{
+    #nav_btn
+{
+    display: block;
+    position: fixed;
+    right: 20px;
+    z-index: 1000;
+
+}
+    #main-nav
+    {
+        display: none;
+        position: fixed;
+   background-color: purple;
+left: 0px;
+top: 0px;
+height: 100%;
+width: 100%;
+z-index: 100;
+overflow: hidden;
+    }
+    #header ul li 
+          {
+          display: block;
+          padding-top: 10px;
+          top:20px;
+          text-align: center;
+          }
+          
+          #header ul li a
+          {
+              font-size: 30px;
+              padding-bottom: 20px 10px;
+              margin-top: 10px;
+          }
+
+}
+
+.show
+{
+    display: block !important;
+    transition: 1s;
+    
+    
+}
+#carousel 
+{
+    margin-bottom: 2%;
+}
+#carousel img 
+{
+  width:100%;
+}
+#section_1 
+{
+    text-align: center;
+    margin-bottom: 2%;
+}
+#img_1 img
+{
+    width:100%;
+}
+#desc_1 h2{
+    color: #F06A98;
+}
+
+#section_2 
+{
+    text-align: center;
+}
+.img_2
+{
+    padding: 0px;
+  
+}
+.img_2 img
+{
+    width:100%;
+    min-height: 345px;
+}
+.img_2:after
+{
+    content: "";
+    position: absolute;
+    height: 93%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+    transition: 1s;
+ 
+
+}
+.img_2:hover:after {
+    top: 0%;
+    opacity: 1;
+    transform: rotate(360deg);
+   
+}
+
+#section_3
+{
+    text-align: center;
+    background-image: url("images/22.jpg");
+    background-attachment: fixed;
+    color: white;
+}
+.img_3_desc 
+{
+    border:9px double blue;
+    width:50%;
+    margin-left: 25%;
+}
+
+#logos_9
+{
+
+    text-align: center;
+    background-color: black;
+}
+ #logos_9  ul li a
+{
+        display: inline-block;
+    width: 30px;
+    height: 30px;
+   
+    background: url(images/img-sprite.png) no-repeat 0px 0px;
+    background-size: 300px;
+    text-align: right;
+}
+#logos_9 ul
+{
+    padding: 20px 1px;
+}
+#logos_9 ul li
+{
+    display: inline-block;
+  
+}
+#logos_9 a .fb 
+{
+        background-position: 0px 0px;
+}
+
+#logos_9 a.twt
+
+{
+        background-position: -30px 0px;
+}
+#logos_9 a.go
+
+{
+        background-position: -60px 0px;
+}
+#logos_9 a.in
+
+{
+        background-position: -90px 0px;
+}
+#logos_9 a.blog
+
+{
+        background-position: -120px 0px;
+}
+#logos_9 a.tumb
+
+{
+        background-position: -150px 0px;
+}
+#logos_9 a.rss
+
+{
+        background-position: -180px 0px;
+}
+#logos_9 a.yt
+
+{
+        background-position: -210px 0px;
+}
+#logos_9 a.vmo
+
+{
+        background-position: -240px 0px;
+}
+#logos_9 a.dv
+
+{
+        background-position: -270px 0px;
+}
+#logos_9 a.fb:hover
+{
+    background-position: 0px -30px;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#logos_9 a.twt:hover
+{
+    background-position: -30px -30px;
+     transition: 0.5s;
+     transform: scale(1.2);
+}
+#logos_9 a.go:hover
+{
+    background-position: -60px -30px;
+     transition: 0.5s;
+     transform: scale(1.2);
+}
+#logos_9 a.in:hover
+{
+    background-position: -90px -30px;
+     transition: 0.5s;
+     transform: scale(1.2);
+}
+#logos_9 a.blog:hover
+{
+    background-position: -120px -30px;
+     transition: 0.5s;
+     transform: scale(1.2);
+}
+#logos_9 a.tumb:hover
+{
+    background-position: -150px -30px;
+     transition: 0.5s;
+     transform: scale(1.2);
+}
+#logos_9 a.rss:hover
+{
+    background-position: -180px -30px;
+     transition: 0.5s;
+     transform: scale(1.2);
+}
+
+#logos_9 a.yt:hover
+{
+    background-position: -210px -30px;
+     transition: 0.5s;
+     transform: scale(1.2);
+}
+#logos_9 a.vmo:hover
+{
+    background-position: -240px -30px;
+     transition: 0.5s;
+     transform: scale(1.2);
+}
+#logos_9 a.dv:hover
+{
+    background-position: -270px -30px;
+     transition: 0.5s;
+     transform: scale(1.2);
+}

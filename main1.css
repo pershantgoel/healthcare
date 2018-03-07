@@ -1,0 +1,49 @@
+body{
+    background-image: url("http://kwmr.org/wp-content/uploads/2017/09/healthcare-graphic-800x445.png");
+    background-position: center;
+    background-size: cover;
+
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 35px 30px;
+
+}
+.avatar{
+   position: fixed;
+   top: -14%;
+   
+    left: 34%;
+    width: 100px;
+}
+h1{
+    text-align: center;
+}
+.loginbox p{
+    margin: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid grey;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+.loginbox input[type="submit"]{
+    background:blue;
+    border-radius: 20px;
+    border: none;
+    margin: 0;
+}
